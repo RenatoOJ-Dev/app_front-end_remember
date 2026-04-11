@@ -1,0 +1,58 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+} */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    background-color: #73A5CA;
+    padding: 10px;
+
+    border-radius: 10px;
+    /* border-style: solid;
+    border-color: #095691;
+    border-width: 5px; */
+
+    text-align: center;
+    /* border-radius: 8px; */
+    /* text-align: center; */
+}
+
+h2 {
+    text-align: center;
+    background-color: #E87F24;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    /* margin-bottom: 0; */
+
+    /* border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-color: #cf6305;
+    border-width: 5px; */
+}
+
+p {
+    background-color: #FFEDCE;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+    /* margin-top: 0; */
+    /* text-align: center; */
+}
+span {
+    color: #c9630a;
+    background-color:#e87f246a;
+    border-radius: 5px;
+    padding: 5px
+}
+.outline {
+    outline: solid #73A5CA 5px;
+}
+img {
+    height: 200px;
+    width: 21vh;
+    border-radius: 10px
+}
