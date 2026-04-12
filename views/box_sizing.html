@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/box_sizing.css">
+    <title>Box Sizing</title>
+</head>
+
+<body>
+    <header>
+        <h1>Box Sizing</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Learning sobre box sizing</h2>
+            <section style="justify-items: center;">
+                <h2>O que vamos ver?</h2>
+                <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo dicta odit a at suscipit
+                    officia
+                    deserunt laudantium, atque quisquam vero ipsam reiciendis, ea nam, illum assumenda eius. Doloribus,
+                    ducimus quis!</p>
+                <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo dicta odit a at suscipit
+                    officia
+                    deserunt laudantium, atque quisquam vero ipsam reiciendis, ea nam, illum assumenda eius. Doloribus,
+                    ducimus quis!</p>
+            </section>
+            <section style="justify-items: center;">
+                <h2 class="h2-explication">Explicando box sizing</h2>
+                <p class="p-explication">O box-sizing controla como o tamanho total de como um elemento é calculado. Com
+                    content-box (padrão), o
+                    width e height incluem apenas o conteúdo, enquanto com border-box, eles incluem conteúdo, padding e
+                    border.
+                    <br><br>
+                    Por exemplo, se um elemento tiver o tamanho de 400px em width mais 10px em padding
+                    o valor total desse elemento em largura sera de 420px com o <span>content-box</span>.
+                    <br><br>
+                    Já com o <span>border-box</span>, o valor total do elemento em largura seria de 400px, pois o
+                    padding
+                    estaria incluído no cálculo do tamanho total.
+                    Nesse caso nao tera uma soma e sim uma subtração, ou seja, o padding de 10px seria subtraído do
+                    valor total de 400px, resultando em um conteúdo de 390px de largura.
+                </p>
+            </section>
+        </article>
+    </main>
+
+</body>
+
+</html>
