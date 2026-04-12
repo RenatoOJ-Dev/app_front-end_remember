@@ -1,0 +1,38 @@
+
+h1, h2 {
+    font-size: 50px;
+    font-family: "Sekuya";
+    margin: 0;
+    text-align: center;
+}
+li {
+      list-style-type: none;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+div.container {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+a {
+    background-color: #0D1117; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    text-decoration: underline;
+    font-family: "Outfit";
+    display: block;
+}
+a:hover {
+    /* background-color: lightblue; */
+    color: hotpink;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6); */
+}
