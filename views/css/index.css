@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
 
 h1, h2 {
     font-size: 50px;
@@ -5,31 +10,48 @@ h1, h2 {
     margin: 0;
     text-align: center;
 }
+h2 {
+    margin: 0 0 100px 0;
+}
+span {
+    color: lightblue;
+    background-color: rgba(151, 216, 238, 0.331);
+    border-radius: 5px;
+    padding: 5px;
+}
+div.container {
+    /* background-color: pink; */
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+ul {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 li {
       list-style-type: none;
 }
-ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-div.container {
-    /* background-color: pink; */
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-}
 a {
-    background-color: #0D1117; 
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    padding: 50px;
+    width: 100px;
+    height: 50px;
+    padding: 30px;
     border-radius: 10px;
+    
+    background-color: #0D1117;
+    color: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    
     text-decoration: underline;
     font-family: "Outfit";
-    display: block;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    /* border: 5px solid lightblue; */
+
+    
 }
 a:hover {
     /* background-color: lightblue; */

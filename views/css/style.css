@@ -1,58 +1,82 @@
-/* * {
+:root {
+    --color_option_1: rgba(240, 128, 128, 0);
+    --color_option_2: rgb(0, 0, 0);
+    --color_option_3: white;
+}
+
+* {
     margin: 0;
     padding: 0;
-    box-sizing: ;
-} */
-body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+body {
+    font-family: "Outfit";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+main {
+    width: 90%;
+    max-width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+ header {
+    display: flex;
+    justify-content: center;
+} 
+div {
+    background-color: var(--color_option_3);
+}
+section {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
 h1 {
-    background-color: #73A5CA;
-    padding: 10px;
-
-    border-radius: 10px;
-    /* border-style: solid;
-    border-color: #095691;
-    border-width: 5px; */
-
+    font-family: "Sekuya";
     text-align: center;
-    /* border-radius: 8px; */
-    /* text-align: center; */
+    font-size: 30px;
+
+    margin-bottom:20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.161);
+    padding: 0 20px;
+    border-radius: 10px;
 }
 
 h2 {
-    text-align: center;
-    background-color: #E87F24;
-    border-radius: 10px 10px 0px 0px;
-    padding: 10px;
-    /* margin-bottom: 0; */
-
-    /* border-top-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-
-    border-color: #cf6305;
-    border-width: 5px; */
+    text-align: left;
 }
 
+img {
+    width: 100%; /* 100% do container pai */
+    max-width: 100%;
+    height: auto; /* mantém a proporção */
+    display: block; /* remove espaço extra embaixo */
+    border-radius: 20px;
+}
 p {
-    background-color: #FFEDCE;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     padding: 15px;
-    /* margin-top: 0; */
-    /* text-align: center; */
+    margin-bottom: 20px;
+    text-align: center;
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.161); */
 }
 span {
-    color: #c9630a;
-    background-color:#e87f246a;
+    color: var(--color_option_3);
+    background-color:var(--color_option_2);
     border-radius: 5px;
-    padding: 5px
-}
-.outline {
-    outline: solid #73A5CA 5px;
-}
-img {
-    height: 200px;
-    width: 21vh;
-    border-radius: 10px
+    padding: 2px;
 }
