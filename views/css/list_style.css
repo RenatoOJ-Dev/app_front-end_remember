@@ -1,0 +1,51 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 30px;
+    font-family: "Sekuya", sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: underline;
+}
+h2 {
+    text-align: center;
+    border: 1px solid black;
+}
+section {
+    border: 5px solid rgb(251, 255, 0);
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+
+    align-content: center;
+    justify-items: center;
+}
+ul {
+    border: 5px solid rgb(0, 208, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+ol {
+    border: 5px solid rgb(255, 0, 225);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+ul li {
+    color: lightslategray;
+    list-style-type: none;
+}
+ol li {
+    color:lightcoral;
+}
