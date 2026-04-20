@@ -3,27 +3,32 @@
     padding: 0;
     /* box-sizing: border-box; */
 }
+body {
+    /* min-height: 100vh; */
+    background-color: rgb(255, 255, 255);
+}
 
-h1, h2 {
-    font-size: 50px;
+h1{
+    font-size: 25px;
     font-family: "Sekuya";
-    margin: 0;
     text-align: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.178);
+
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
-h2 {
-    margin: 0 0 100px 0;
-}
-span {
-    color: lightblue;
-    background-color: rgba(151, 216, 238, 0.331);
-    border-radius: 5px;
-    padding: 5px;
+main {
+    width: 100%;
+    margin: auto;
 }
 div.container {
-    /* background-color: pink; */
     width: 100%;
     display: flex;
     justify-content:center;
+    align-items: center;
 }
 ul {
     gap: 20px;
@@ -54,7 +59,5 @@ a {
     
 }
 a:hover {
-    /* background-color: lightblue; */
     color: hotpink;
-    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6); */
 }
