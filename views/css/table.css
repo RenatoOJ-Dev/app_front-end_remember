@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.respansive-table {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+table th, table td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30rem;
+}
+
+table thead, table tfoot {
+    background-color: rgba(173, 216, 230, 0.29);
+}
+
+caption {
+    caption-side: bottom;
+    text-align: left;
+    font-size: 10px;
+    font-style: italic;
+}

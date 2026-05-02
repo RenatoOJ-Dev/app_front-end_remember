@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/table.css">
+    <title>Table</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="respansive-table">
+            <table>
+                <caption>Dados de alunos</caption> <!-- Legenda da tabela -->
+                <thead> <!-- table head ou o cabeçalho da tabela -->
+                    <tr> <!-- table row ou linha do cabeçalho da tabela -->
+                        <th scope="col">Pessoa</th> <!-- cabeçalho da linha da  -->
+                        <th scope="col">Hobby</th> <!-- cabeçalho da linha da  -->
+                        <th scope="col">Idade</th> <!-- cabeçalho da linha da  -->
+                    </tr>
+                </thead>
+                <tbody> <!-- corpo da tabela -->
+                    <tr> <!-- table row ou linha do corpo da tabela -->
+                        <!-- "scope" serve para indicar se o conteudo e uma head ou um body -->
+                        <th scope="row">Even</th> <!-- cabeçalho do corpo da tabela -->
+                        <td>Pesca</td> <!-- conteudo simples do corpo da tabela -->
+                        <td>13</td> <!-- conteudo simples do corpo da tabela -->
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Gian</th>
+                        <td>Ler</td>
+                        <td>12</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Lia</th>
+                        <td>Pintar</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="2">Idade maior</th> <!-- "colspan" junta colunas -->
+                        <td>15</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+
+</body>
+
+</html>
