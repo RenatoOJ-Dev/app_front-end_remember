@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5470/5470671.png" type="image/x-icon">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container-h1">
+            <h1>Form.</h1>
+        </div>
+    </header>
+
+    <main class="body">
+        <div class="container-main">
+            <section class="form-login-container">
+                <form action="" autocomplete="off" name="form-login-user" target="_blank">
+                    <div class="field-group">
+                        <label for="name">seu nome</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+
+                    <div class="field-group">
+                        <label for=" password">sua senha</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div>
+                        <button type="submit">send</button>
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <form action="">
+                    <div>
+                        <fieldset>
+                            <legend>voce aceita os termos?</legend>
+                            <label for="radio-no"><input type="radio" name="radio" id="radio-no" value="no">Não</label>
+
+                            <label for="radio-yes"><input type="radio" name="radio" id="radio-yes"
+                                    value="yes">Sim</label>
+                        </fieldset>
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <form action="">
+                    <div>
+                        <label for="delete">esse botão deleta as coisa</label>
+                        <input type="button" value="delete" id="delete">
+                    </div>
+                    <div>
+                        <label for="apply">esse botão não deleta as</label>
+                        <input type="button" value="apply" id="apply">
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <form action="">
+                    <div>
+                        <label for="file">escolha um arquivo</label>
+                        <input type="file" name="file" id="file">
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <form action="">
+                    <div>
+                        <label for=""> isso e para data e hora:
+                            <input type="datetime-local" name="" id="">
+                        </label>
+
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <form action="">
+                    <div>
+                        <label for="color">escolha uma cor</label>
+                        <input type="color" name="color" id="color">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h2>Column.</h2>
+        </div>
+    </footer>
+
+</body>
+
+</html>
