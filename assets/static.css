@@ -33,3 +33,7 @@ footer {
     padding: var(--10px-to-rem) 0;
 
 }
+
+main {
+    flex-grow: 1;
+}
