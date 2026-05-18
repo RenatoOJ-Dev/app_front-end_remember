@@ -1,0 +1,32 @@
+main {
+    padding: 2rem;
+}
+
+div p::first-line{
+    color:lightpink;
+    font-weight: bold;
+}
+
+div p:hover::first-line {
+    color: lightblue;
+}
+
+div p::selection {
+    background-color: black;
+    color: white;
+}
+
+.container{
+    border: 1px solid black;
+    padding: .5rem;
+}
+
+div.container p::after{
+    content: ', esse valor está sendo criado pela ::after';
+    color: brown;
+}
+div.container-p {
+    border: 1px solid black;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}

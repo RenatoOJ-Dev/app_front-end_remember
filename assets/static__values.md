@@ -8,3 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <header>
+        <div>
+            <h1>Table.</h1>
+        </div>
+    </header>
+
+
+    <footer>
+        <div>
+            <h2>Table.</h2>
+        </div>
+    </footer>

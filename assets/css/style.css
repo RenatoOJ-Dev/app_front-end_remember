@@ -3,9 +3,6 @@ main {
     flex-grow: 1;
 }
 
-img {
-    border-radius: 20px;
-}
 
 .body {
     max-width: 85%;

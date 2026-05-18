@@ -1,0 +1,54 @@
+/* Configuração apenas deixas mais conformatavel na vista */
+main {
+    padding: 2rem;
+}
+/*------------------------*/
+
+div.div__container{
+    display: flex;
+    background-color: azure;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 1.2rem;
+}
+.pai >  h3 ~ p{
+    color: red;
+        /* Ideia:
+        Tem que ter classe .pai, filha direta com tag h3 vai pegar todos os p*/
+
+}
+
+.pai > h4:not([meu-atributo]) ~ p {
+    color: blue;
+    /* Ideia:
+        Tem que ter classe .pai filha direta h4 que não tenha atributo
+        meu-atributo e vai pegar todos os p apos ele. */
+}
+.pai > [meu-atributo="valor"] ~ p{
+    color: blueviolet
+        /* Ideia:
+        Tem que ter classe .pai, filha direta com atributo meu-atributo="valor"
+        e vai pegar todos os p apos ele */
+
+}
+
+div.pai > h4[meu-atributo="pink"] + p{
+    color: hotpink;
+        /* Ideia:
+        Tem que ser a tag div com a classe .pai, filha direta h4 com atributo 
+        meu-atributo="pink" e vai pegar somente um p apos ele */
+
+}
+
+div.pai > h4[meu-atributo="pink"] + p:hover {
+    cursor: pointer;
+    color: brown;
+    text-decoration: underline;
+
+}
+
+p,h4,h3 {
+    text-align: center;
+}
+
