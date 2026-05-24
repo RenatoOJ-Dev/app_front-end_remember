@@ -12,13 +12,13 @@
 
     <header>
         <div>
-            <h1>Table.</h1>
+            <h1 class="heading-logo">Colors.</h1>
         </div>
     </header>
-
-
+    <main></main>
     <footer>
         <div>
-            <h2>Table.</h2>
+            <h2 class="footer">Footer.</h2>
         </div>
     </footer>
+

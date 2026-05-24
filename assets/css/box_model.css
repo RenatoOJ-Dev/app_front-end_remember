@@ -1,0 +1,52 @@
+main {
+    padding: 1rem;
+}
+.container-content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.heading{
+    padding: 10px;
+}
+.card-content{
+    display: flex;
+    gap: 10px;
+}
+
+.card-content div{
+    background-color: lightgreen;
+    margin-top: 10px;
+
+    width: 500px;
+    height: 100px;
+    border: 5px solid green;
+
+    align-content: center;
+    text-align: center;
+}
+
+p::selection{
+    background-color: black;
+    color: yellow;
+}
+
+section{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 10px 0;
+}
+p {
+    border: 2px solid rgb(0, 221, 255);
+    margin: 10px 0;
+    padding: 10px;
+
+}
+.dentro-div-container-content{
+    background-color: hotpink;
+    height: 30px;
+
+    min-width: 500px;
+    max-width: 600px;
+    width: 100%;
+}

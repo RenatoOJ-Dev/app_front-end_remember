@@ -24,7 +24,7 @@ header {
     padding: var(--10px-to-rem) 0;
 }
 
-h1, h2 {
+.heading-logo, .footer {
     text-align:center;
 }
 

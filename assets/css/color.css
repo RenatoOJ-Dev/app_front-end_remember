@@ -1,0 +1,33 @@
+.container {
+    justify-items: center;
+    margin: 2rem;
+}
+.cards-heading {
+    display: flex;
+    gap: 0.3125rem;
+}
+.cards-content {
+    background: hotpink;
+    margin-top:0.2rem;
+}
+
+.cards-heading .card {
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #ffc0cb;
+}
+.content {
+    background: #767F9E;
+    width: 19.375rem;
+    height: 6.25rem;
+}
+
+
+.card:first-child {
+    background: #76ABAE;
+}
+
+.card:last-child {
+    background: #f08080;
+}
+

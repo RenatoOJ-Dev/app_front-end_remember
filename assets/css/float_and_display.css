@@ -1,0 +1,14 @@
+main {
+    padding: 1rem;
+}
+section div{
+    background: rgb(184, 131, 158);
+    margin: 10px;
+
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+div.ultimo-div{
+    float: right;
+}
