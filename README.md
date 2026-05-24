@@ -1,5 +1,17 @@
-# Bem vindo ao meu projeto de fundamentos de HTML e CSS!
+# 📚 HTML and CSS Remember
 
-### Hello, esse projeto para eu relembrar os fundamentos de HTML e CSS. Ele é dividido em pastas, cada uma com um assunto diferente. Dentro de cada pasta tem um arquivo HTML e um arquivo CSS, onde o HTML é a estrutura da página e o CSS é a estilização da página.
+Este projeto foi criado com o objetivo de relembrar e consolidar os conceitos fundamentais de HTML5 e CSS3.
 
-caso esteja vendo isso, é porque o projeto está em desenvolvimento, então pode ser que tenha alguns arquivos faltando ou que ainda não estejam completos. Mas fique à vontade para dar uma olhada e me dar feedbacks!
+## 📂 Estrutura do Repositório
+
+O projeto é dividido em pastas temáticas. Cada pasta aborda um assunto específico e contém:
+* **Arquivo HTML:** Estrutura semântica da página.
+* **Arquivo CSS:** Estilização e layout dos elementos.
+
+## 🛠️ Tecnologias Utilizadas
+
+* **HTML5**
+* **CSS3**
+* **Conventional Commits** (Para organização do histórico)
+----
+⚠️ **Nota:** Este projeto está em constante desenvolvimento. Fique à vontade para explorar os arquivos e deixar feedbacks!
