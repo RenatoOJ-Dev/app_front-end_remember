@@ -1,0 +1,59 @@
+main {
+    padding: 0.625rem;
+}
+
+.pai {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.625rem;
+}
+.filho-pink {
+    position: absolute;
+    top: 18.75rem;
+    left: 12.5rem;
+    background-color: lightpink;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+.filho-blue {
+    position: fixed;
+    background-color: lightblue;
+    width: 6.25rem;
+    height: 6.25rem;
+    z-index: 1;
+}
+.filho-green {
+    position: relative;
+    background-color: lightgreen;
+    top: 30px;
+    right: -100px;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+.filho-purple {
+    position: relative;
+    background-color: purple;
+    width: 12.5rem;
+    height: 12.5rem;
+    top: 10px;
+    left: 50%;
+}
+.filho-purple-yellow {
+    position: absolute;
+    background-color: yellow;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+.filho-purple-cyan {
+    position: absolute;
+    background-color: cyan;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
+section {
+    height: 100vh;
+}
