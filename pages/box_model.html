@@ -4,51 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/static.css">
     <link rel="stylesheet" href="/assets/css/box_model.css">
     <title>Box Model</title>
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="container">
             <h1>Box Model.</h1>
         </div>
     </header>
 
     <main>
-        <div class="container-content">
-            <div>
-                <section class="heading">
-                    <p>Tudo no CSS tem um quadro em volta de si.
-                        Os CSS são como caixas, box ou block,
-                        e tudo gira em torno disso.
-                    </p>
-                    <p>Para poder moldar todas essas caixas ou blocos,
-                        precisamos de propriedades da qual podemos
-                        são usadas para dar tamanho a esses quadros.
-                    </p>
-                    <p>Por exemplo, vamos usar uma &lt;div&gt; para
-                        demonstrar o comportamento de um quadro dentro
-                        do HTML e CSS.
-                    </p>
-                </section>
-                <section class="card-content">
-                    <div>div1</div>
-                    <div>div2</div>
-                    <div>div3</div>
-                </section>
-                <p>Todo esse molde, e toda essa fisionomia
-                    dos blocos de div1 a div3 estão sendo moldados
-                    apartir da valores pre configurados do box model
-
+        <div class="main-content">
+            <section class="heading">
+                <p>Tudo no CSS tem um quadro em volta de si.
+                    Os CSS são como caixas, box ou block,
+                    e tudo gira em torno disso.
                 </p>
-            </div>
-            <div class="dentro-div-container-content"></div>
+                <p>Para poder moldar todas essas caixas ou blocos,
+                    precisamos de propriedades da qual podemos
+                    são usadas para dar tamanho a esses quadros.
+                </p>
+                <p>Por exemplo, vamos usar uma &lt;div&gt; para
+                    demonstrar o comportamento de um quadro dentro
+                    do HTML e CSS.
+                </p>
+            </section>
+            <section class="cards-content">
+                <div class="card-item">div1</div>
+                <div class="card-item">div2</div>
+                <div class="card-item">div3</div>
+            </section>
+            <p>Todo esse molde, e toda essa fisionomia
+                dos blocos de div1 a div3 estão sendo moldados
+                apartir da valores pre configurados do box model
+
+            </p>
         </div>
     </main>
     <footer>
-        <div>
+        <div class="container">
             <h2>Footer.</h2>
         </div>
     </footer>
