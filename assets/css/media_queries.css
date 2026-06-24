@@ -1,0 +1,53 @@
+.div__content {
+    background-color: none;
+    width: 50%;
+    margin: 0 auto;
+
+
+}
+.div__content::after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+.div__content--red {
+    width: 33.33%;
+    height: 100px;
+    float: left;
+
+    padding: 2px;
+
+}
+
+.div__content--blue {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+.div__paragraph--lorem::selection {
+    background-color: black;
+    color: white;
+}
+p {
+    text-align: center;
+}
+
+@media (max-width:668px){
+    .div__content--red {
+        width: 100%;
+    }
+    .div__content--blue {
+        background-color: red;
+    }
+}
+@media (min-width:669px) and (max-width:912px){
+    .div__content--red {
+        width: 50%;
+    }
+    .div__content--blue {
+        background-color: lightgreen;
+    }
+}

@@ -14,4 +14,4 @@ O projeto é dividido em pastas temáticas. Cada pasta aborda um assunto especí
 * **CSS3**
 * **Conventional Commits** (Para organização do histórico)
 ----
-⚠️ **Nota:** Este projeto está em constante desenvolvimento. Fique à vontade para explorar os arquivos e deixar feedbacks!
+⚠️ **Nota:** Este projeto está em constante desenvolvimento. Fique à vontade para explorar os arquivos e deixar feedbacks
